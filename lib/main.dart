@@ -1,10 +1,10 @@
+import 'package:finance_app/pages/onBoarding_page.dart';
 import 'package:flutter/material.dart';
 
-import 'pages/home_page.dart';
-import 'pages/splach_page.dart';
-
 void main() {
-  runApp(const FinanceApp());
+  runApp(
+    const FinanceApp(),
+  );
 }
 
 class FinanceApp extends StatelessWidget {
@@ -12,9 +12,9 @@ class FinanceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplachScreen(),
+      home: OnBoardingPage(),
     );
   }
 }
